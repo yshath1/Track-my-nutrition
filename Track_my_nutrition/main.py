@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime
 import os
-APP_ID="f76050e9"
-API_KEY="c58ca323450e49de673ed4346c0a3b81"
+APP_ID="App_id"
+API_KEY="Api_key"
 today=datetime.now()
 NUTRITIONIX_EXERCISE_ENDPOINT="https://trackapi.nutritionix.com/v2/natural/exercise"
 HEADERS={
